@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0279c0; /*Overall background*/
+}
+
+a {
+    color: #07aef8;		/*Hyperlink text color*/
+}
+
+.login-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#login-container {
+	padding: 40px 100px;
+    text-align: center;
+    background-image: url(../images/postIt.png);
+    background-size: 80px 80px;		/*Image size*/
+    background-repeat: no-repeat;
+    background-position: 12px 12px; /*Image location from the corner*/
+    background-color: #ffffff;
+}
+
+#login-container form div > input {
+    padding: 8px 15px;			/*Input cell size*/
+    margin: 5px 0;
+}
+
+#login-container div > h5 {
+	margin: 5px;
+}
+
+button {
+    padding: 10px 15px; 		/*Top/Bottom px, Left/Right px button size*/
+    margin: 5px 0px;			/*Outer edge size*/
+    border: none;
+    border-radius: 6px; 		/*Login button corner*/
+    color: #ffffff; 			/*Button text color*/
+    background-color: #0463b9;	/*Button background color*/
+}
+
+button:hover {
+	background-color: #034784;
+}
