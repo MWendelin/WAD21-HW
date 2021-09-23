@@ -6,7 +6,37 @@
     <link rel="stylesheet" href="res/css/style.css">
     <title>postIt!</title>
   </head>
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="res/images/postIt.png" alt="PostIt">
+        </div>
+        <div class="search-container">
+            <input type="text"><button>Search</button>
+            
+        </div>
+        <div class="user">
+            <img src="res/images/usericon.png" alt="userIcon">
+        </div>
+    </nav>
+  </header>
   <body>
-    <div><a href="login.html">Back</a></div>
+    <section>
+      <div class="flex-container">
+        <div style="order: 0" class="postHeader">
+          <img src="res/images/usericon.png" alt="userIcon"> 
+          <h4> 12 Sept 2021 21:03 </h4>
+        </div>
+        <div style="order: 1" class="picture">
+          <img src="res/images/tornado.jpg" alt="tornadoPic">
+        </div>
+        <div style="order: 2" class="caption">
+          <h3> Looks like it is going to rain. </h3>
+        </div>
+        <div style="order: 3" class="like">
+          <img src="res/images/like.png" alt="likeBtn">
+        </div>
+      </div>
+    </section>
   </body>
 </html>
