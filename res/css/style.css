@@ -10,7 +10,7 @@ html, body {
     background-color: #0279c0; /*Overall background*/
 }
 
-a {
+a{
     color: #07aef8;		/*Hyperlink text color*/
 }
 
@@ -30,6 +30,7 @@ a {
     background-repeat: no-repeat;
     background-position: 12px 12px; /*Image location from the corner*/
     background-color: #ffffff;
+    box-shadow: 10px 10px 50px -10px black;
 }
 
 #login-container form div > input {
@@ -40,6 +41,7 @@ a {
 #login-container div > h5 {
 	margin: 5px;
 }
+
 
 button {
     padding: 10px 15px; 		/*Top/Bottom px, Left/Right px button size*/
@@ -100,48 +102,113 @@ nav div.search-container > button {
     background-color: darkblue;
 }
 
-.flex-container{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    width: 400px;
-    padding: 20px;
+
+
+.box1{
+    order: 1;                            /*Little containers*/
     background-color: white;
-    align-content: center;
+    width: 75%;                          /*Container width is 75% of whole white background*/
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 10px 10px 50px -10px gray;
 }
 
-section div{
-    width: 100%;
-    background-color: white;
+img{                                  /*Image box, so it doesn't overflow*/
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
-section div.postHeader{
-    height: 40px;
+#postHeader {                         /*Every post's header:  time and user icon*/
+    position: relative;
+    top: -23px;
+    height: 20px;
+    background: url(../images/usericon.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left top;
     text-align: right;
     
 }
 
-section div.postHeader img{
-    float: left;
+div h6 {
+    color: gray;
+}                                /*All timestamps are gray*/
+
+
+#picPost {                       /*Image's atrributes*/
+    position: relative;
+    top: -15px;
+    height: 112px;
+    width: 199px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: auto;
+
+}
+#postFooter {                  /*All posts have a footer*/
+    position: relative;
+    bottom: 30px;
+    background-color: white;
+    height: 40px;
+    background: url(../images/like.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: left bottom;
+}
+#post {                        /*Text post's attributes*/
+    position: relative;
+    bottom: 30px;
+    height: 40px;
+}
+
+.box2{
+    order: 2;
+    background-color: white;
+    width: 75%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 10px 10px 50px -10px gray;
+}
+#like {                     
+    position: relative;
+    bottom: 30px;
+    height: 15px;
+}
+
+
+.box3{
+    order: 3;
+    background-color: white;
+    width: 75%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 10px 10px 50px -10px gray;
+}
+
+.container{                   /*Main flex container*/
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;,
+    align-items: stretch;
+    background-color: white;
+    width: 50%;
     height: 100%;
-}
+    margin-left: auto;
+    margin-right: auto;
 
-section .picture img{
-    width: 100%;
-}
-
-section .like{
-    height: 30px;
-    border-width: 2px;
-    border-color: black;
-}
-
-section .like img{
-    height: 100%;
-    float: left;
 }
 
 
