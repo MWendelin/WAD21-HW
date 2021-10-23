@@ -1,0 +1,54 @@
+[	
+	{
+
+		"post_id" : 1,
+		"post_header" : {
+			"timestamp" : "Sep 12, 2021 13:12",
+			"author" : ""
+			},
+
+		"post" : {
+			"image" : "",
+			"img_signature" : "Looks like it's going to rain"
+		},
+
+		"post_footer" : {
+			"like" : ""
+
+		}
+	},
+		
+
+
+	{
+		"post_id" : 2,
+		"post_header" : {
+			"timestamp" : "Sep 12, 2021 17:32",
+			"author" : ""
+			},
+
+		"post" : {
+			"post" : "Why did the chicken cross the road?\\ - To get to the other side"
+		},
+
+		"post_footer" : {
+			"like" : ""
+		}
+	},
+
+	{
+		"post_id" : 3,
+		"post_header" : {
+			"timestamp" : "Sep 12, 2021 21:09",
+			"author" : ""
+		},
+		"post" : {
+			"image" : "",
+			"img_signature" : "Best friends forever"
+		},
+		"post_footer" : {
+			"like" : ""
+		}
+	}
+	
+]
