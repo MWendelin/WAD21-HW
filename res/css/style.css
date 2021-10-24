@@ -103,13 +103,11 @@ nav div.search-container > button { /*Child Selector*/
     background-color: darkblue;
 }
 
-
-
-.box1{
-    order: 1;                            /*Little containers*/
+.box{                                   /*Little containers*/
+    margin-top: 55px;
     background-color: white;
     width: 75%;                          /*Container width is 75% of whole white background*/
-    height: 200px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -124,7 +122,7 @@ img{                                  /*Image box, so it doesn't overflow*/
 }
 
 #postHeader {                         /*Every post's header:  time and user icon*/
-    position: relative;
+    /*position: relative;*/
     top: -23px;
     height: 20px;
     background: url(../images/usericon.png);
@@ -132,16 +130,18 @@ img{                                  /*Image box, so it doesn't overflow*/
     background-repeat: no-repeat;
     background-position: left top;
     text-align: right;
-    
+    color: gray;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-div h6 {
+div h6 {                           /*All timestamps are gray*/
     color: gray;
-}                                /*All timestamps are gray*/
+}                                
 
 
 #picPost {                       /*Image's atrributes*/
-    position: relative;
     top: -15px;
     height: 112px;
     width: 199px;
@@ -149,11 +149,9 @@ div h6 {
     background-repeat: no-repeat;
     background-size: auto;
     margin: auto;
-
 }
+
 #postFooter {                  /*All posts have a footer*/
-    position: relative;
-    bottom: 30px;
     background-color: white;
     height: 40px;
     background: url(../images/like.png);
@@ -161,48 +159,25 @@ div h6 {
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: left bottom;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
 }
 #post {                        /*Text post's attributes*/
     position: relative;
     bottom: 30px;
     height: 40px;
 }
-
-.box2{
-    order: 2;
-    background-color: white;
-    width: 75%;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    padding: 5px;
-    box-shadow: 10px 10px 50px -10px gray;
-}
-#like {                     
+.like {                     
     position: relative;
-    bottom: 30px;
+    bottom: 1px;
     height: 15px;
 }
 
-
-.box3{
-    order: 3;
-    background-color: white;
-    width: 75%;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    padding: 5px;
-    box-shadow: 10px 10px 50px -10px gray;
-}
-
-.container{                   /*Main flex container*/
-    margin-top: 50px;
+.main-container{                   /*Main flex container*/
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;,
+    justify-content: flex-start;
     align-items: stretch;
     background-color: white;
     width: 50%;
@@ -228,10 +203,3 @@ ul {
     text-align: left;
     display: none;
 }
-
-
-
-
-
-
-
