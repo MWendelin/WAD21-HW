@@ -14,9 +14,11 @@ function loadPosts() {
     $.get("https://api.npoint.io/c48d21c16fe58944166e", function(posts) {
         for (post of posts) {
             let postContainer = $('<div class = "box">');
-            let postPic = $('<div id="picPost">')
-            let postFooter = $('<div id="postFooter">').text(post.post.signature);
-            let createTime = $('<div id="postHeader">').text(post.post_header.timestamp);
+            let postPic = $('<div class="picPost">')
+            let postFooter = $('<div class="postFooter">').text(post.post.signature);
+            let createTime = $('<div class="postHeader">').text(post.post_header.timestamp);
+            let authorName = $('<p class="autor">').text(post.post_header.author.firstName + " " + post.post_header.author.lastName);
+            createTime.append(authorName);
             postContainer.append(createTime);
             if (post.post.image != null) {
                 let img = $('<img>')

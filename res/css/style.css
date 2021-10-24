@@ -105,6 +105,7 @@ nav div.search-container > button { /*Child Selector*/
 
 .box{                                   /*Little containers*/
     margin-top: 55px;
+    margin-bottom: 10px;
     background-color: white;
     width: 75%;                          /*Container width is 75% of whole white background*/
     height: auto;
@@ -121,47 +122,58 @@ img{                                  /*Image box, so it doesn't overflow*/
     display: block;
 }
 
-#postHeader {                         /*Every post's header:  time and user icon*/
-    /*position: relative;*/
-    top: -23px;
+.postHeader {                         /*Every post's header:  time and user icon*/
     height: 20px;
     background: url(../images/usericon.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left;
     text-align: right;
     color: gray;
     display: block;
     font-size: 14px;
     font-weight: bold;
+    padding: 5px;
 }
 
-div h6 {                           /*All timestamps are gray*/
+ div h6 {                           /*All timestamps are gray*/
     color: gray;
-}                                
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
 
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
 
-#picPost {                       /*Image's atrributes*/
-    top: -15px;
-    height: 112px;
-    width: 199px;
+.autor {
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+}               
+
+.picPost {                       /*Image's atrributes*/
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
     margin: auto;
 }
 
-#postFooter {                  /*All posts have a footer*/
+.postFooter {                  /*All posts have a footer*/
     background-color: white;
     height: 40px;
     background: url(../images/like.png);
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: left bottom;
     display: block;
     font-size: 14px;
     font-weight: bold;
+    padding: 5px;
 }
 #post {                        /*Text post's attributes*/
     position: relative;
@@ -181,9 +193,9 @@ div h6 {                           /*All timestamps are gray*/
     align-items: stretch;
     background-color: white;
     width: 50%;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
+    height: 130%;
 }
 
 ul {
