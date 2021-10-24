@@ -14,10 +14,10 @@ a{
     color: #07aef8;		/*Hyperlink text color*/
 }
 
-.login-page {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.login-page {                   /*class*/
+	display: flex;             /*flexbox*/
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
 }
@@ -52,7 +52,7 @@ button {
     background-color: #0463b9;	/*Button background color*/
 }
 
-button:hover {
+button:hover {                  /*pseudo-class*/
 	background-color: #034784;
 }
 
@@ -69,7 +69,7 @@ nav {
     align-items: center;
 }
 
-nav div{
+nav div{                /*Descendant combinator*/
     height: 30px;
     flex-grow: 4;
     padding: 10px;
@@ -79,11 +79,12 @@ nav div img{
     height: 100%;
 }
 
-nav div.user img{
+nav div.user-container img{
     float: right;
+    cursor: pointer;
 }
 
-nav div.search-container > input {
+nav div.search-container > input { /*Child Selector*/
     box-sizing: border-box;
     height: 30px;
     width: 80%;
@@ -91,7 +92,7 @@ nav div.search-container > input {
     padding: 5px;
     border: 1px solid #e0e0e0;
 }
-nav div.search-container > button {
+nav div.search-container > button { /*Child Selector*/
     box-sizing: border-box;
     height: 30px;
     width: 20%;
@@ -208,8 +209,27 @@ div h6 {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.drop-down-container {
+    position: absolute;
+    min-width: 150px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    right: 0;
+    top: 50px;
+    text-align: left;
+    display: none;
+}
+
+
 
 
 
