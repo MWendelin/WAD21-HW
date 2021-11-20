@@ -1,5 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Who We Are and How We Got Here</h1>
+    <p>Harry Potter's life is miserable. 
+      His parents are dead and he's stuck with his heartless relatives, 
+      who force him to live in a tiny closet under the stairs. But his 
+      fortune changes when he receives a letter that tells him the truth 
+      about himself: he's a wizard. A mysterious visitor rescues him from 
+      his relatives and takes him to his new home, Hogwarts School of 
+      Witchcraft and Wizardry.</p>
   </div>
 </template>
