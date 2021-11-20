@@ -6,8 +6,27 @@
       <router-link to="/contact">Contact Us</router-link>
     </div>
     <router-view />
+    <webapp-footer />
   </div>
 </template>
+
+<script>
+import Footer from "./components/Footer.vue";
+
+export default {
+  name: 'App',
+
+  components: {
+    'webapp-footer': Footer,
+  },
+
+  data() {
+    return{
+
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
