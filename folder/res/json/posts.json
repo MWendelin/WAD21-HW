@@ -1,54 +1,191 @@
-[	
-	{
-
-		"post_id" : 1,
-		"post_header" : {
-			"timestamp" : "Sep 12, 2021 13:12",
-			"author" : ""
-			},
-
-		"post" : {
-			"image" : "",
-			"img_signature" : "Looks like it's going to rain"
-		},
-
-		"post_footer" : {
-			"like" : ""
-
+[{
+	"post_id": 1,
+	"post_header": {
+		"timestamp": "Sep 12, 2021 13:12",
+		"author": {
+			"firstName": "Mike",
+			"lastName": "Ledger",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
 		}
 	},
-		
-
-
-	{
-		"post_id" : 2,
-		"post_header" : {
-			"timestamp" : "Sep 12, 2021 17:32",
-			"author" : ""
-			},
-
-		"post" : {
-			"post" : "Why did the chicken cross the road?\\ - To get to the other side"
-		},
-
-		"post_footer" : {
-			"like" : ""
-		}
+	"post": {
+		"image": "https://images.hdqwalls.com/wallpapers/tornado-ww.jpg",
+		"imageText": "Tornado",
+		"signature": "Looks like it's going to rain"
 	},
-
-	{
-		"post_id" : 3,
-		"post_header" : {
-			"timestamp" : "Sep 12, 2021 21:09",
-			"author" : ""
-		},
-		"post" : {
-			"image" : "",
-			"img_signature" : "Best friends forever"
-		},
-		"post_footer" : {
-			"like" : ""
-		}
+	"post_footer": {
+		"like": ""
 	}
-	
+},
+{
+	"post_id": 2,
+	"post_header": {
+		"timestamp": "Sep 12, 2021 17:32",
+		"author": {
+			"firstName": "Levi",
+			"lastName": "Gannon",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": null,
+		"imageText": "-",
+		"signature": "Why did the chicken cross the road? - To get to the other side"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 3,
+	"post_header": {
+		"timestamp": "Sep 12, 2021 21:09",
+		"author": {
+			"firstName": "Ariel",
+			"lastName": "Dawson",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/batman-arkham-knight-batman-and-robin-feature.jpg",
+		"imageText": "Batman&Robin",
+		"signature": "Best friends forever"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 4,
+	"post_header": {
+		"timestamp": "Sep 29, 2021 00:21",
+		"author": {
+			"firstName": "Matthew",
+			"lastName": "Welder",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": "https://cdn.wallpapersafari.com/21/77/3Ux01N.jpg",
+		"imageText": "Space",
+		"signature": "There is a lot of space between us"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 5,
+	"post_header": {
+		"timestamp": "Oct 01, 2021 12:01",
+		"author": {
+			"firstName": "Mike",
+			"lastName": "Ledger",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": null,
+		"imageText": "-",
+		"signature": "You know what I saw today? Everything I looked at."
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 6,
+	"post_header": {
+		"timestamp": "Oct 01, 2021 13:09",
+		"author": {
+			"firstName": "Larry",
+			"lastName": "Berry",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": "https://www.washingtonpost.com/resizer/cF6Nul7rlyItE8NYJYsOQwYFrvE=/arc-anglerfish-washpost-prod-washpost/public/JHUB7ORETQ2UZFISRKQ3BA7R3A.jpg",
+		"imageText": "First snow",
+		"signature": "This year's first snow"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 7,
+	"post_header": {
+		"timestamp": "Oct 03, 2021 22.15",
+		"author": {
+			"firstName": "Billie",
+			"lastName": "Booter",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": "https://lp-cms-production.imgix.net/image_browser/GettyImages-961577496.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
+		"imageText": "Bali",
+		"signature": "My relaxing trip"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 8,
+	"post_header": {
+		"timestamp": "Oct 17, 2021 01:17",
+		"author": {
+			"firstName": "Ariel",
+			"lastName": "Dawson",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": null,
+		"imageText": "-",
+		"signature": "Happy birthday to me!"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 9,
+	"post_header": {
+		"timestamp": "Oct 30, 2021 23:59",
+		"author": {
+			"firstName": "Levi",
+			"lastName": "Gannon",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": null,
+		"imageText": "-",
+		"signature": "What do you call bears with no ears? - B-s"
+	},
+	"post_footer": {
+		"like": ""
+	}
+},
+{
+	"post_id": 10,
+	"post_header": {
+		"timestamp": "Oct 31, 2021 18:13",
+		"author": {
+			"firstName": "Mike",
+			"lastName": "Ledger",
+			"profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png"
+		}
+	},
+	"post": {
+		"image": "https://i.ytimg.com/vi/-4sj4ACJANU/maxresdefault.jpg",
+		"imageText": "Dark forest",
+		"signature": "Don't be scared tonight!"
+	},
+	"post_footer": {
+		"like": ""
+	}
+}
 ]
