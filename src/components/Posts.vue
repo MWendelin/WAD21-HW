@@ -5,17 +5,16 @@
 </template>
 
 <script>
-
 import Contents from "@/components/Contents.vue";
 
 export default {
-
   name: "Posts",
   components: { Contents },
   props: ["PostList"],
   data() {
-    return{
-    }}}
+    return {};
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

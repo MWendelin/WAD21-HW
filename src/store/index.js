@@ -16,8 +16,6 @@ export default new Vuex.Store({
       {id: 8, author: "Charlotte Bronte", image: require('@/assets/logo.png'), subtext: "Logo"},
       {id: 9, author: "Charlotte Bronte", image: require('@/assets/logo.png'), subtext: "Logo"},
       {id: 10, author: "Charlotte Bronte", image: require('@/assets/logo.png'), subtext: "Logo"},
-
-      
   ]
   },
   mutations: {},

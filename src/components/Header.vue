@@ -8,14 +8,18 @@
 
 <style lang="scss">
 #header {
-  padding: 30px;
+  padding: 10px;
+  width: 20%;
+  margin-left: 40%;
+  background-color: #1862c9;
+  border-radius: 10px;
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #3a3a3a;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #fff;
     }
   }
 }

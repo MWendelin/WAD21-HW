@@ -5,3 +5,9 @@
     <h1>Address: Narva mnt 18, 51009 Tartu</h1>
   </div>
 </template>
+
+<style>
+  .contact {
+    margin-top: 12%;
+  }
+</style>

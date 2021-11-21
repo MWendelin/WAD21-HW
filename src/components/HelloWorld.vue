@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="main-container">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -102,7 +102,7 @@
   </div>
 </template>
 
-<script>
+<script> 
 export default {
   name: "HelloWorld",
   props: {
@@ -112,7 +112,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
 h3 {
   margin: 40px 0 0;
 }
@@ -125,6 +125,18 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #fff;
+}
+.main-container{                   /*Main flex container*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: rgb(57, 190, 162);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130%;
+    border-radius: 10px;
 }
 </style>

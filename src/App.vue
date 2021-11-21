@@ -1,11 +1,6 @@
 <template>
   <div id="app">
     <webapp-header />
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/contact">Contact Us</router-link>
-    </div> -->
     <router-view />
     <webapp-footer />
   </div>
@@ -16,19 +11,17 @@ import Footer from "./components/Footer.vue";
 import Header from "./components/Header.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    'webapp-footer': Footer,
-    'webapp-header': Header,
+    "webapp-footer": Footer,
+    "webapp-header": Header,
   },
 
   data() {
-    return{
-
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style lang="scss">
@@ -39,17 +32,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
-// #nav {
-//   padding: 30px;
-
-//   a {
-//     font-weight: bold;
-//     color: #2c3e50;
-
-//     &.router-link-exact-active {
-//       color: #42b983;
-//     }
-//   }
-// }
 </style>

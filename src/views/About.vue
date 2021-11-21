@@ -10,3 +10,15 @@
       Witchcraft and Wizardry.</p>
   </div>
 </template>
+
+<style>
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+</style>
