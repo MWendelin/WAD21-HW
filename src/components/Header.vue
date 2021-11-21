@@ -1,13 +1,22 @@
 <template>
-    <header>
-        <h3> {{ title }} </h3>
-    </header>
+  <header id="header">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link> |
+    <router-link to="/contact">Contact Us</router-link>
+  </header>
 </template>
 
-<script>
+<style lang="scss">
+#header {
+  padding: 30px;
 
-</script>
+  a {
+    font-weight: bold;
+    color: #2c3e50;
 
-<style scoped>
-
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
 </style>

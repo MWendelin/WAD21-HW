@@ -1,8 +1,8 @@
 <template>
-  <app-footer id="footer">
-    <router-link to="/contact" class="contact-text"> Contact Us</router-link>
-    <div class="copyright">Copyright © PostIt</div>
-  </app-footer>
+  <footer id="footer">
+    <router-link to="/contact" id="contact-text"> Contact Us</router-link>
+    <div id="copyright">Copyright © PostIt</div>
+  </footer>
 </template>
 
 <style lang="scss">
@@ -16,10 +16,10 @@
     padding: 2px;
     color: white;
   }
-  .copyright {
+  #copyright {
     font-size: smaller;
   }
-  .contact-text {
+  #contact-text {
     color: white;
   }
 </style>
