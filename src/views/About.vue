@@ -1,13 +1,16 @@
 <template>
   <div class="about">
     <h1>Who We Are and How We Got Here</h1>
-    <p>Harry Potter's life is miserable. 
-      His parents are dead and he's stuck with his heartless relatives, 
-      who force him to live in a tiny closet under the stairs. But his 
-      fortune changes when he receives a letter that tells him the truth 
-      about himself: he's a wizard. A mysterious visitor rescues him from 
-      his relatives and takes him to his new home, Hogwarts School of 
-      Witchcraft and Wizardry.</p>
+    <p>In <i>Who We Are and How We Got Here</i>, 
+      Reich allows readers to discover how the human genome 
+      provides not only all the information a human embryo needs 
+      to develop but also the hidden story of our species. Reich delves 
+      into how the genomic revolution is transforming our understanding 
+      of modern humans and how DNA studies reveal deep inequalities among 
+      different populations, between the sexes, and among individuals. 
+      Provocatively, Reich’s book suggests that there might very well be 
+      biological differences among human populations but that these 
+      differences are unlikely to conform to common stereotypes.</p>
   </div>
 </template>
 

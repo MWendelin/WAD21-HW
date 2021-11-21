@@ -11,12 +11,12 @@
   padding: 10px;
   width: 20%;
   margin-left: 40%;
-  background-color: #1862c9;
+  background-color: #c9c9c9;
   border-radius: 10px;
 
   a {
     font-weight: bold;
-    color: #3a3a3a;
+    color: #000000;
 
     &.router-link-exact-active {
       color: #fff;
