@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+
+    <header class="header">
+        <%- include('../partials/header'); %>
+    </header>
+
+    <br>
+    <div class="create-post">
+        <h1>Create a post</h1>
+        <form action="/posts" method="POST" autocomplete="off">
+            <label for="title">Post title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="body">Post body:</label>
+            <textarea id="body" name="body" required></textarea>
+            <button id="add-button">Add post</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <%- include('../partials/footer'); %>
+    </footer>
+</body>
+
+</html>
+
+<!-- <label for="title">Post title:</label>
+            <input type="text" id="title" name="title" required><br><br>
+            <label for="body">Post body:</label>
+            <input type="text" id="body" name="body" required><br><br>
+            <label for="urllink"> URL link:</label>
+            <input type="text" id="urllink" name="urllink"></textarea><br><br>
+            <div class="v-center">
+                <button class="btn-add">Add post</button>
+            </div> -->
