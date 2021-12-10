@@ -19,6 +19,15 @@
                     <p class="body">
                         <%= post.body %>
                     </p>
+                    <p class= "post-footer">
+                        <button id="like-button" type="button" @click="post.like++";></button>
+                            <span id="post-like"><% if(post.likes > 0){ %>
+                                        Likes: <%= post.likes %> 
+                                        <% } else{ %> 
+                                         This post has no likes.
+                                        <% } %> </span>
+                    </p>
+                    
                 </a>
                 <% }) %>
                     <% } else { %>

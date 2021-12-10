@@ -19,6 +19,7 @@
             </p>
         </div>
         <button id="like-button" type="button" onclick="this.disabled = true;"></button>
+        <span id="post-like"> Likes: <%= posts.likes %></span>
         <a class="delete" data-del="<%= posts.id %>">Delete post</a>
     </div>
     <script>
