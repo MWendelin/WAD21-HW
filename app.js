@@ -25,6 +25,7 @@ app.get('/create', (req, res) => {
     res.render('create', { title: 'Create New' });
 });
 
+// Retrieve all posts
 app.get('/posts', async(req, res) => {
     try {
         console.log("get posts request has arrived");
@@ -37,6 +38,7 @@ app.get('/posts', async(req, res) => {
     }
 });
 
+// Retrieve a specific post
 app.get('/singlepost/:id', async(req, res) => {
     try {
         const id = req.params.id;
@@ -63,6 +65,23 @@ app.get('/posts/:id', async(req, res) => {
         console.error(err.message);
     }
 });
+
+app.put('/posts/:id', async(req, res) => {
+    try {
+        const { id } = req.params;
+        const post = req.body;
+        console.log(req.body.likes + " see");
+        console.log("update request has arrived");
+        const updatepost = await pool.query(
+            "UPDATE tablewad SET likes = $2 WHERE id = $1", [id, post.likes]
+        );
+        res.json(post);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+// Delete a post
 app.delete('/posts/:id', async(req, res) => {
     try {
         console.log(req.params);
@@ -77,6 +96,8 @@ app.delete('/posts/:id', async(req, res) => {
         console.error(err.message);
     }
 });
+
+// Add a new post
 app.post('/posts', async(req, res) => {
     try {
         const post = req.body;
